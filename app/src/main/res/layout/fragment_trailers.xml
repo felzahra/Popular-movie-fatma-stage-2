@@ -1,0 +1,39 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/seatLegendLayout">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout_gridtableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/trailgridview"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dp"
+                android:columnWidth="80dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:horizontalSpacing="1dp"
+                android:minHeight="100dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="horizontal"
+                android:stretchMode="none"
+                android:verticalSpacing="1dp">
+
+
+            </GridView>
+
+        </LinearLayout>
+    </FrameLayout>
+</HorizontalScrollView>
